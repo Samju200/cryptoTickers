@@ -43,7 +43,7 @@ function renderTable() {
             coin.symbol,
             coin.name,
             `$${parseFloat(coin.price_usd).toFixed(2)}`,
-            `$${parseFloat(coin.market_cap_usd).toLocaleString()}`,
+            `$${parseFloat(coin.tsupply).toLocaleString()}`,
             `${coin.percent_change_24h}%`,
         ];
 
